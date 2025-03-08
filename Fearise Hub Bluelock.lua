@@ -88,7 +88,6 @@ local function CreateToggle()
     uICorner1.Parent = toggleButton
 
     toggleButton.Parent = mainFrame
-
     local uIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint")
     uIAspectRatioConstraint.Name = "UIAspectRatioConstraint"
     uIAspectRatioConstraint.AspectRatio = 1
@@ -164,7 +163,7 @@ end
 
 LoadSetting()
 
-local Fluent = loadstring(game:HttpGet("https://raw.githubusercontent.com/imyourlio/Cracked/refs/heads/main/Fearise%20UI"))()
+local Fluent = loadstring(game:HttpGet("https://raw.githubusercontent.com/UnlessDahell/FeariseHub/refs/heads/main/Fearise_UI"))()
 local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/SaveManager.lua"))()
 local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/InterfaceManager.lua"))()
 
