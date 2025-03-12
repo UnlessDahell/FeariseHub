@@ -5,12 +5,12 @@ local function copyToClipboard()
         setclipboard(link)
         print("✅ Copied to Clipboard: " .. link)
     else
-        warn("❌ Executor supported setclipboard()")
+        warn("❌ Executor was not support setclipboard()")
     end
 end
 
 local function hideUI()
-    screenGui:Destroy()
+    mainFrame.Visible = false
 end
 
 local screenGui = Instance.new("ScreenGui")
@@ -35,7 +35,7 @@ local bottomLabel = Instance.new("TextLabel")
 bottomLabel.Size = UDim2.new(1, 0, 0.75, 0)
 bottomLabel.Position = UDim2.new(0, 0, 0.25, 0)
 bottomLabel.BackgroundTransparency = 1
-bottomLabel.Text = "Join our Discord For news! : " .. link
+bottomLabel.Text = "Join our Discord : " .. link
 bottomLabel.TextColor3 = Color3.fromRGB(250, 250, 250)
 bottomLabel.TextSize = 16
 bottomLabel.Font = Enum.Font.SourceSans
