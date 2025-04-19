@@ -163,7 +163,7 @@ end
 
 LoadSetting()
 
-local Fluent = loadstring(game:HttpGet("https://raw.githubusercontent.com/UnlessDahell/FeariseHub/refs/heads/main/Fearise_UI"))()
+local Fluent = loadstring(game:HttpGet("https://raw.githubusercontent.com/UnlessDahell/FeariseHub/refs/heads/main/Fearise_UI.txt?token=GHSAT0AAAAAADCBLBSZ4YFNYN2EIDZASPDG2ADZ2CQ"))()
 local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/UnlessDahell/FeariseHub/refs/heads/main/SaveManager.lua"))()
 local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/UnlessDahell/FeariseHub/refs/heads/main/InterfaceManager.lua"))()
 
